@@ -1,1 +1,3 @@
 # sap-commerce-workplace
+
+## Installation
