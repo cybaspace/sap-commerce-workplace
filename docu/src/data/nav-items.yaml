@@ -1,3 +1,6 @@
 - title: Getting started
   pages:
     - path: /getting-started
+- title: Credits
+  pages:
+    - path: /credits

@@ -11,6 +11,7 @@ module.exports = {
       resolve: 'gatsby-theme-carbon',
       options: {
         isSearchEnabled: false,
+        navigationStyle: 'header',
         name: "SAP Commerce Workplace Tools",
         icon: "src/images/favicon.svg",
         short_name: "SAP Commerce Workplace Tools",
