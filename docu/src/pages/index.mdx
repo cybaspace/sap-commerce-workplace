@@ -1,84 +1,35 @@
 import HomepageTemplate from 'gatsby-theme-carbon/src/templates/Homepage';
 export default HomepageTemplate;
 
-## MDX content starts here
-
-<Tabs>
-<Tab label="Text">
-
-The tab component can be used for a variety of content. From text, to images, to
-columns. If you want to have multiple columns, you’ll need to use our `Row` and
-`Column` helpers as demonstrated in the "Two images" tab.
-
-</Tab>
-<Tab label="Single image">
-```markdown path=/directory/file.mdx src=https://gatsby-theme-carbon.now.sh
-### Path and src
-This code snippet provides both a `path` and a `src`.
-```
-</Tab>
-
-<Tab label="Two images">
-
-<Row>
-<Column colSm={6} colLg={6}>
-
-Column one
-
-![color array](images/image.png)
-
-</Column>
-<Column colSm={6} colLg={6}>
-
-Column two
-
-![color array](images/npm.svg)
-
-</Column>
-</Row>
-
-</Tab>
-</Tabs>
-
-<Title>Vertical overflow</Title>
-
-```markdown path=/directory/file.mdx src=https://gatsby-theme-carbon.now.sh
-## Path and src w/ overflow
-
-This example demonstrates the show more button. This example demonstrates the
-show more button. This example demonstrates the show more button. This example
-demonstrates the show more button. This example demonstrates the show more
-button. This example demonstrates the show more button. This example
-demonstrates the show more button. This example demonstrates the show more
-button. This example demonstrates the show more button. This example
-demonstrates the show more button. This example demonstrates the show more
-button. This example demonstrates the show more button.
-```
-
-
 <PageDescription>
 
-The homepage content here lives in the `src/pages/index.mdx` directory at the
-root of your project. Just like the other mdx pages, you can use all of our
-theme components here without importing them. Review the
-[MDX example source](https://github.com/carbon-design-system/gatsby-theme-carbon/blob/main/packages/example/src/pages/index.mdx).
+Here we will distribute some tools to help you evelate your productivity when working with SAP commerce.
 
 </PageDescription>
 
-<FeatureCard
-    color="dark"
-    href="/getting-started"
-    title="Getting started"
-    actionIcon="arrowRight"
-    className="homepage-feature"
-    >
+<Tabs>
+<Tab label="macOS">
 
-<ArtDirection>
+```sh path=~/y.sh src=https://github.com/cybaspace/sap-commerce-workplace/
+# make the tool runnable and execute it
+chmod +x ~/y.sh
+~/y.sh
+```
 
-![blue vertical stripes](../images/blue-stripes-mobile.jpg)
-![blue vertical stripes](../images/blue-stripes-tablet.jpg)
-![blue vertical stripes](../images/blue-stripes.jpg)
+</Tab>
+<Tab label="Linux">
 
-</ArtDirection>
+```bash path=/usr/local/bin/y.sh src=https://github.com/cybaspace/sap-commerce-workplace/
+chmod +x ~/y.sh
+./y.sh
+```
 
-</FeatureCard>
+</Tab>
+<Tab label="Windows">
+
+```markdown path=C:\Windows\System32\y.exe src=https://github.com/cybaspace/sap-commerce-workplace/
+y.exe
+```
+
+</Tab>
+</Tabs>
